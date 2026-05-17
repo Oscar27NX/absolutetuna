@@ -7,7 +7,7 @@ import scipy as sp
 
 def fourier_transform(img):
     """
-    eceives a 2D image (in bit64) and returns its Fourier Transform (in bit64).
+    receives a 2D image (in bit64) and returns its Fourier Transform (in bit64).
     """
     img_array = np.array(img, dtype=np.float64)
 
